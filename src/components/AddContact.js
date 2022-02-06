@@ -19,7 +19,7 @@ const AddContact = (props) => {
             contact = {
                 ContactName: name,
                 ContactEmail: email,
-                Id: Math.random()*100
+                Id: (Math.random()*100).toString()
             };
             props.UpdateContacts(contact);
             setEmail("");

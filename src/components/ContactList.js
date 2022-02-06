@@ -3,8 +3,6 @@ import ContactCard from "./ContactCard";
 
 
 const ContactList = (props) =>{
-
-    console.log('ContactList', props.contacts)
     return (
         <div className="ui called list">
         Contact List

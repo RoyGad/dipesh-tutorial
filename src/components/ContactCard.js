@@ -1,12 +1,7 @@
 import React from "react";
 
 const ContactCard = ({contact}) => {
-
-
     const {ContactName, ContactEmail, Id} = contact;
-
-    console.log(ContactEmail);
-
     return (
         <div className="item">
             <div className="content">
